@@ -1,6 +1,17 @@
 .footer {
   max-height: 271px;
   width: 100%;
+  background-color: #232323;
+}
+
+.footer-items {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 ul li {
