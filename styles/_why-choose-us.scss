@@ -4,11 +4,31 @@
     position:relative;
 }
 
+.text-images{
+    max-width: 1114px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    bottom: 30%;
+    position: absolute;
+
+}
 .text-button-why-choose-us{
     max-width: 526px;
-    max-height: 342px;
+    max-height: 450pxpx;
     color: white;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 30%;
+}
+
+.images {
+    max-width: 526px;
+    max-height: 342px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 30%;
+
 }
