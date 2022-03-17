@@ -1,3 +1,19 @@
-.company-name {
-  font-size: 60px;
+.footer {
+  max-height: 271px;
+  width: 100%;
+}
+
+.header {
+  max-height: 821px;
+  width: 100%;
+}
+
+.house-section {
+  max-height: 1400px;
+  width: 100%;
+}
+
+.testimonial {
+  max-height: 731px;
+  width: 100%;
 }
