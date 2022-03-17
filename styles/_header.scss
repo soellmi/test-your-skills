@@ -6,7 +6,7 @@ ul li{
 
 .header {
     max-height: 821px;
-    width: 100%;
+    max-width: 100%;
     position: relative;
 }
 
@@ -20,6 +20,13 @@ ul li{
 
 .page-links{
     max-height: 83px;
-    position:absolute;
+    max-width: 1773px;
+    position:relative;
     bottom:0%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #5474FD;
+    
 }

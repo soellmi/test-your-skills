@@ -22,7 +22,27 @@
 
 }
 /*.........link-fonts here...*/
-
+.logo-small{
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    
+}
+.links {
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+}
+.links a:link a:visited{
+    font-family: 'Aleo', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+}
 /*...................why choose us..................*/
 .title-why{
     font-family: 'Aleo', serif;

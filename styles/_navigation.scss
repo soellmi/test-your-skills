@@ -1,0 +1,26 @@
+
+
+nav{
+    max-height: 83px; 
+    background-color: #5474FD; 
+    position: absolute;
+}
+
+.page-links{
+    height: 60px;
+    width: 100%;
+    position:absolute;
+    bottom:0%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    
+}
+
+.links {
+    max-width: 525px;
+    display: flex;
+    justify-content:flex-end;
+}

@@ -21,6 +21,29 @@
 }
 
 /*.........link-fonts here...*/
+.logo-small {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.links {
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: white;
+}
+
+.links a:link a:visited {
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: white;
+}
+
 /*...................why choose us..................*/
 .title-why {
   font-family: "Aleo", serif;
@@ -113,7 +136,7 @@ ul li {
 
 .header {
   max-height: 821px;
-  width: 100%;
+  max-width: 100%;
   position: relative;
 }
 
@@ -127,8 +150,21 @@ ul li {
 
 .page-links {
   max-height: 83px;
-  position: absolute;
+  max-width: 1773px;
+  position: relative;
   bottom: 0%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #5474FD;
 }
 
 .house-section {
@@ -173,8 +209,8 @@ ul li {
 
 img {
   height: auto;
-  -o-object-fit: fill;
-     object-fit: fill;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .testimonial {
@@ -209,5 +245,6 @@ img {
 }
 
 body {
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
