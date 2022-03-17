@@ -46,6 +46,10 @@ a:link a:visited {
   text-decoration: none;
 }
 
+a:hover {
+  color: black;
+}
+
 /*...................why choose us..................*/
 .title-why {
   font-family: "Aleo", serif;
@@ -312,7 +316,6 @@ nav {
   height: 83px;
   width: 100%;
   background-color: #5474FD;
-  position: relative;
 }
 
 .logo-small {
@@ -325,8 +328,6 @@ nav {
 }
 
 .page-links {
-  position: absolute;
-  bottom: 0%;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
