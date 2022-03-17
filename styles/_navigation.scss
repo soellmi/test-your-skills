@@ -1,31 +1,25 @@
 
 
 nav{
-    max-height: 83px; 
+    height: 83px; 
     width: 100%;
     background-color: #5474FD; 
-    position: relative;
+    
 }
 
 .logo-small{
-    max-width:525px;
     display: flex;
     justify-content: flex-start;
 }
 .page-links{
-    height: 80px;
-    width: 100%;
-    position:relative;
-    bottom:0%;
     color: white;
     display: flex;
-    justify-content:space-around;
+    justify-content:flex-end;
    
    
   .links{
-    max-width:525px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
   } 
     
 }
