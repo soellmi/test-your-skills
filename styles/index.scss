@@ -1,3 +1,6 @@
+$fa-font-path: "styles/webfonts";
+$fa-font-path: "styles/scss";
+
 @use 'fonts';
 
 
@@ -8,3 +11,9 @@
 @import 'images';
 @import 'testimonials';
 @import 'why-choose-us';
+
+@import './scss/fontawesome.scss';
+@import './scss/solid.scss';
+
+
+
