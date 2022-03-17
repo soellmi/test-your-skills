@@ -33,6 +33,41 @@ ul li {
   width: 100%;
 }
 
+.grand-spain-1 {
+  max-height: 700px;
+  width: 100%;
+  position: relative;
+}
+
+.text-square-1 {
+  max-width: 540px;
+  max-height: 371px;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 30%;
+}
+
+.grand-spain-2 {
+  max-height: 700px;
+  width: 100%;
+  position: relative;
+}
+
+.text-square-2 {
+  max-width: 540px;
+  max-height: 371px;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 30%;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .testimonial {
   max-height: 731px;
   width: 100%;
@@ -41,4 +76,14 @@ ul li {
 .why-choose-us {
   max-height: 685px;
   width: 100%;
+  position: relative;
+}
+
+.text-button-why-choose-us {
+  max-width: 526px;
+  max-height: 342px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 30%;
 }
