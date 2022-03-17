@@ -28,7 +28,7 @@
   line-height: 26px;
 }
 
-.links {
+a {
   font-family: "Aleo", serif;
   font-weight: 400;
   font-size: 14px;
@@ -36,7 +36,7 @@
   color: white;
 }
 
-.links a:link a:visited {
+a:link a:visited {
   font-family: "Aleo", serif;
   font-weight: 400;
   font-size: 14px;
