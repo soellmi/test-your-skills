@@ -170,6 +170,18 @@ ul li {
   color: white;
 }
 
+.search-button {
+  width: 153px;
+  height: 63px;
+  background-color: #5474FD;
+  color: white;
+  border: none;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+}
+
 .house-section {
   max-height: 1400px;
   width: 100%;
@@ -203,6 +215,18 @@ ul li {
   color: white;
   top: 50%;
   left: 30%;
+}
+
+.button-book {
+  width: 228px;
+  height: 63px;
+  background-color: #5474FD;
+  color: white;
+  border: none;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 .how-it-works {
@@ -306,6 +330,18 @@ img {
   position: relative;
   top: 50%;
   left: 30%;
+}
+
+.button-explore {
+  width: 228px;
+  height: 63px;
+  background-color: #5474FD;
+  color: white;
+  border: none;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
 }
 
 .images {
