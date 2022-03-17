@@ -2,25 +2,21 @@
 
 nav{
     max-height: 83px; 
+    width: 100%;
     background-color: #5474FD; 
-    position: absolute;
+    position: relative;
 }
 
 .page-links{
-    height: 60px;
+    height: 80px;
     width: 100%;
-    position:absolute;
+    position:relative;
     bottom:0%;
     color: white;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: flex-end;
+   
    
     
 }
 
-.links {
-    max-width: 525px;
-    display: flex;
-    justify-content:flex-end;
-}

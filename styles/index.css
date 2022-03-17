@@ -34,6 +34,7 @@ a {
   font-size: 14px;
   line-height: 26px;
   color: white;
+  text-decoration: none;
 }
 
 a:link a:visited {
@@ -42,6 +43,7 @@ a:link a:visited {
   font-size: 14px;
   line-height: 26px;
   color: white;
+  text-decoration: none;
 }
 
 /*...................why choose us..................*/
@@ -148,25 +150,6 @@ ul li {
   color: white;
 }
 
-.page-links {
-  max-height: 83px;
-  max-width: 1773px;
-  position: relative;
-  bottom: 0%;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  background-color: #5474FD;
-}
-
 .house-section {
   max-height: 1400px;
   width: 100%;
@@ -247,4 +230,35 @@ img {
 body {
   max-width: 100%;
   height: auto;
+  margin: 0;
+}
+
+nav {
+  max-height: 83px;
+  background-color: #5474FD;
+  position: absolute;
+}
+
+.page-links {
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.links {
+  max-width: 525px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
