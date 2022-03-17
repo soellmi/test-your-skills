@@ -1,4 +1,24 @@
+ul li{
+    list-style-type: none;
+    display: inline;
+
+}
+
 .header {
     max-height: 821px;
     width: 100%;
+    position: relative;
+}
+
+.logo-searchbar-link{
+    position:absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: white;
+}
+.page-links{
+    max-height: 83px;
+    position:absolute;
+    bottom:0%;
 }
