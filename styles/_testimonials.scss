@@ -3,14 +3,33 @@
     width: 100%;
     position: relative;
 }
+.image-hike-text {
+    max-width: 1113px;
+    max-height: 287px;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+   
+ 
+    
+}
+
+
+.image-hiking{
+    position: relative;
+    padding: 10px;
+}
+
+
 
 .title-text-square {
-    max-width: 1110px;
-    max-height: 404px;
-    position:absolute;
+    max-width: 581px;
+    max-height: 161px;
+    position:relative;
     color: white;
-    top: 50%;
-    left: 30%;
-    right: 30%;
+    padding: 10px;
+    
     
 }
