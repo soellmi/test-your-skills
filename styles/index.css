@@ -125,13 +125,6 @@ ul li {
   color: white;
 }
 
-.fa-solid fa-angle-down {
-  width: 14px;
-  height: 8px;
-  color: white;
-  font-family: "FontAwsome";
-}
-
 .page-links {
   max-height: 83px;
   position: absolute;
@@ -179,8 +172,9 @@ ul li {
 }
 
 img {
-  max-width: 100%;
   height: auto;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .testimonial {
@@ -212,4 +206,8 @@ img {
   position: absolute;
   top: 50%;
   left: 30%;
+}
+
+body {
+  width: 100%;
 }

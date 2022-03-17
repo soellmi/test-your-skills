@@ -1,5 +1,4 @@
-$fa-font-path: "styles/webfonts";
-$fa-font-path: "styles/scss";
+
 
 @use 'fonts';
 
@@ -11,5 +10,6 @@ $fa-font-path: "styles/scss";
 @import 'images';
 @import 'testimonials';
 @import 'why-choose-us';
+@import 'main';
 
 
