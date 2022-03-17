@@ -182,6 +182,10 @@ ul li {
   line-height: 26px;
 }
 
+.search-button:hover {
+  background-color: black;
+}
+
 .house-section {
   max-height: 1400px;
   width: 100%;
@@ -227,6 +231,10 @@ ul li {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
+}
+
+.button-book:hover {
+  background-color: black;
 }
 
 .how-it-works {
@@ -342,6 +350,10 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
+}
+
+.button-explore:hover {
+  background-color: black;
 }
 
 .images {
